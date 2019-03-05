@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String initial(){
-		return "Page initial jetty server";
+		return "Page initial jetty server!!";
 	}
 	
 	@RequestMapping("/greet")
